@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-clr-secondary-black grid  h-svh place-items-center md:h-screen">
-        <main className={`${inter.className} max-w-[90rem] px-6 antialiased`}>
+        <main
+          className={`${inter.className} max-w-[90rem] px-6 text-center antialiased`}
+        >
           {children}
         </main>
       </body>
