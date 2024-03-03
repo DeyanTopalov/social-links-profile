@@ -2,45 +2,45 @@ import ProfilePic from "./profile_pic";
 
 const LinksCard = () => {
   return (
-    <section className="bg-clr-secondary-dark-grey grid max-w-[24rem] place-content-center gap-6 rounded-2xl p-6 text-sm text-white md:p-10">
+    <section className="grid max-w-[24rem] place-content-center gap-6 rounded-2xl bg-clr-secondary-dark-grey p-6 text-sm text-white md:p-10">
       <div className="grid place-content-center">
         <ProfilePic />
       </div>
       <div>
         <h1 className="text-2xl font-bold">Jessica Randall</h1>
-        <h2 className="text-clr-primary-green font-bold">
+        <h2 className="font-bold text-clr-primary-green">
           London, United Kingdom
         </h2>
       </div>
-      <p>"Front-end developer and avid reader."</p>
+      <q>Front-end develoqer and avid reader.</q>
       <div className="grid gap-4 ">
         <div
-          className="bg-clr-secondary-grey hover:bg-clr-primary-green hover:text-clr-secondary-black focus:bg-clr-primary-green focus:text-clr-secondary-black rounded-lg py-3 font-bold transition-all
-      duration-300 ease-in-out focus:cursor-pointer"
+          className="rounded-lg bg-clr-secondary-grey py-3 font-bold transition-all duration-300 ease-in-out hover:bg-clr-primary-green hover:text-clr-secondary-black
+      focus:cursor-pointer focus:bg-clr-primary-green focus:text-clr-secondary-black"
         >
           GitHub
         </div>
         <div
-          className="bg-clr-secondary-grey hover:bg-clr-primary-green hover:text-clr-secondary-black focus:bg-clr-primary-green focus:text-clr-secondary-black rounded-lg py-3 font-bold transition-all
-      duration-300 ease-in-out focus:cursor-pointer"
+          className="rounded-lg bg-clr-secondary-grey py-3 font-bold transition-all duration-300 ease-in-out hover:bg-clr-primary-green hover:text-clr-secondary-black
+      focus:cursor-pointer focus:bg-clr-primary-green focus:text-clr-secondary-black"
         >
           Frontend Mentor
         </div>
         <div
-          className="bg-clr-secondary-grey hover:bg-clr-primary-green hover:text-clr-secondary-black focus:bg-clr-primary-green focus:text-clr-secondary-black rounded-lg py-3 font-bold transition-all
-      duration-300 ease-in-out focus:cursor-pointer"
+          className="rounded-lg bg-clr-secondary-grey py-3 font-bold transition-all duration-300 ease-in-out hover:bg-clr-primary-green hover:text-clr-secondary-black
+      focus:cursor-pointer focus:bg-clr-primary-green focus:text-clr-secondary-black"
         >
           LnkedIn
         </div>
         <div
-          className="bg-clr-secondary-grey hover:bg-clr-primary-green hover:text-clr-secondary-black focus:bg-clr-primary-green focus:text-clr-secondary-black rounded-lg py-3 font-bold transition-all
-      duration-300 ease-in-out focus:cursor-pointer"
+          className="rounded-lg bg-clr-secondary-grey py-3 font-bold transition-all duration-300 ease-in-out hover:bg-clr-primary-green hover:text-clr-secondary-black
+      focus:cursor-pointer focus:bg-clr-primary-green focus:text-clr-secondary-black"
         >
           Twitter
         </div>
         <div
-          className="bg-clr-secondary-grey hover:bg-clr-primary-green hover:text-clr-secondary-black focus:bg-clr-primary-green focus:text-clr-secondary-black rounded-lg py-3 font-bold transition-all
-      duration-300 ease-in-out focus:cursor-pointer"
+          className="rounded-lg bg-clr-secondary-grey py-3 font-bold transition-all duration-300 ease-in-out hover:bg-clr-primary-green hover:text-clr-secondary-black
+      focus:cursor-pointer focus:bg-clr-primary-green focus:text-clr-secondary-black"
         >
           Instagram
         </div>
