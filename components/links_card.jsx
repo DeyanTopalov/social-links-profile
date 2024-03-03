@@ -7,7 +7,7 @@ const LinksCard = () => {
         <ProfilePic />
       </div>
       <div>
-        <h1 className="text-2xl font-bold">Jessica Randall</h1>
+        <h1 className="pb-1 text-2xl font-bold">Jessica Randall</h1>
         <h2 className="font-bold text-clr-primary-green">
           London, United Kingdom
         </h2>
